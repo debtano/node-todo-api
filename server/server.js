@@ -24,36 +24,4 @@ app.listen(4000, () => {
   console.log('Started on port 4000');
 });
 
-// const newUser = new User({
-//   email: 'hantoli@amazon.com'
-// });
-//
-// newUser.save().then((user) => {
-//   console.log(JSON.stringify(user));
-// }, (e) => {
-//   console.log('Unable to create user', e);
-// });
-
-// let newTodo = new Todo({
-//   text: 'Cook dinner'
-// });
-
-// const otherTodo = new Todo({
-//   text : 'Something to do',
-//   // completed: true,
-//   // completedAt: 123
-// });
-
-// otherTodo.save().then((doc) => {
-//   console.log(JSON.stringify(
-//     doc, undefined, 2
-//   ));
-// }, (e) => {
-//   console.log('Unable to save', e);
-// });
-
-// newTodo.save().then((doc) => {
-//   console.log('Saved doc ', doc);
-// }, (e) => {
-//   console.log('Unable to save todo');
-// });
+module.exports = {app};
